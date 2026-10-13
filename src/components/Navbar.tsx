@@ -20,7 +20,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Zone 1: Brand Wordmark with luxury script style */}
         <a href="#" className="flex items-center gap-3.5 group shrink-0">
           <div className="relative">
-            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-[#e8c374] to-[#b8862f] blur-xs opacity-70 group-hover:opacity-100 transition-opacity" />
+            <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-[#e8c374] to-[#b8862f] blur-[2px] opacity-70 group-hover:opacity-100 transition-opacity" />
             <div className="relative w-10 h-10 rounded-full bg-gradient-to-br from-[#123b2c] to-[#04120e] border border-[#d4a34b]/60 flex items-center justify-center text-[#e8c374] shadow-lg shadow-black/60">
               <Flame className="w-5 h-5 text-[#f0d08a]" />
             </div>

@@ -97,7 +97,10 @@ export const DhungarGuideSection: React.FC = () => {
               <div className="w-full max-w-sm rounded-3xl p-7 bg-[#04120e] border border-[#dfb76c]/30 text-center space-y-4 shadow-2xl relative overflow-hidden">
                 
                 {/* Glow ring */}
-                <div className="absolute inset-0 bg-radial from-[#dfb76c]/10 via-transparent to-transparent pointer-events-none" />
+                <div
+                  className="absolute inset-0 pointer-events-none"
+                  style={{ background: 'radial-gradient(circle at center, rgba(223, 183, 108, 0.12) 0%, transparent 70%)' }}
+                />
 
                 <div className="relative w-24 h-24 mx-auto rounded-full bg-gradient-to-tr from-[#ef4444] via-[#f97316] to-[#dfb76c] p-1 flex items-center justify-center shadow-[0_0_40px_rgba(249,115,22,0.4)]">
                   <div className="w-full h-full rounded-full bg-[#120502] flex items-center justify-center">

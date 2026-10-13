@@ -1,3 +1,8 @@
+import biryaniImg from '../assets/images/pakistani_hero_biryani_1791634787881.jpg';
+import karahiImg from '../assets/images/pakistani_lahori_karahi_1791634802260.jpg';
+import nihariImg from '../assets/images/pakistani_nihari_pot_1791634813254.jpg';
+import chapliImg from '../assets/images/pakistani_chapli_kebab_1791634824336.jpg';
+
 export interface Ingredient {
   name: string;
   amount: number;
@@ -47,7 +52,7 @@ export const RECIPES_DATA: Recipe[] = [
     defaultServings: 6,
     spiceHeat: 'Authentic Pak-Spicy',
     heatLevel: 3,
-    image: '/src/assets/images/pakistani_hero_biryani_1791634787881.jpg',
+    image: biryaniImg,
     originStory: 'Born from the vibrant coastal culinary heritage of Karachi, blending Mughal court extravagance with aromatic Sindhi dried plums (Aloo Bukhara), green cardamoms, and saffron-infused milk.',
     bawarchiSecret: 'Always seal the handi rim with whole wheat dough (Aata Purdah) during Dum so not a single drop of aromatic vapor escapes. Rest for 15 minutes before unsealing.',
     keyAromatics: ['Kashmiri Saffron', 'Green Cardamom', 'Aloo Bukhara (Dried Plums)', 'Kewra Water', 'Star Anise'],
@@ -116,7 +121,7 @@ export const RECIPES_DATA: Recipe[] = [
     defaultServings: 4,
     spiceHeat: 'Tez Teekha (Fiery)',
     heatLevel: 4,
-    image: '/src/assets/images/pakistani_lahori_karahi_1791634802260.jpg',
+    image: karahiImg,
     originStory: 'Famous across Lakshmi Chowk and Gawalmandi, true Lahori Karahi never uses onions or water. It relies on the natural sweetness of reduced tomatoes and intense iron-wok heat (Wok Hei).',
     bawarchiSecret: 'Cook strictly in a heavy black iron karahi. Use whole green chilies slit lengthwise and finish with a generous dollop of pure Makhan (country butter) right before serving.',
     keyAromatics: ['Crushed Roasted Coriander', 'Fresh Ginger Juliennes', 'Dark Roasted Cumin', 'Kashmiri Chili Flakes', 'Country Butter'],
@@ -184,7 +189,7 @@ export const RECIPES_DATA: Recipe[] = [
     defaultServings: 6,
     spiceHeat: 'Tez Teekha (Fiery)',
     heatLevel: 4,
-    image: '/src/assets/images/pakistani_nihari_pot_1791634813254.jpg',
+    image: nihariImg,
     originStory: 'Originally served to Mughal Nawabs after Fajr morning prayers to sustain them through cold winter days. The word Nihari stems from "Nahar" (daybreak).',
     bawarchiSecret: 'Scoop off the glowing red oil (Roghan / Tari) before adding the toasted atta flour slurry; pour the hot roghan back onto individual bowls right at serving time.',
     keyAromatics: ['Peepli (Long Pepper)', 'Fennel (Saunf)', 'Mace (Javetri)', 'Black Cardamom', 'Ginger Juliennes'],
@@ -242,7 +247,7 @@ export const RECIPES_DATA: Recipe[] = [
     defaultServings: 4,
     spiceHeat: 'Medium Spicy',
     heatLevel: 2,
-    image: '/src/assets/images/pakistani_chapli_kebab_1791634824336.jpg',
+    image: chapliImg,
     originStory: 'Hailing from the historic spice markets of Qissa Khwani Bazaar in Peshawar. "Chapli" derives from the Pashto word "Chaprikh", meaning flat.',
     bawarchiSecret: 'Knead the meat like bread dough with animal fat and cornmeal (Makai ka atta) for at least 10 minutes until proteins bind smoothly. Never make patties thick.',
     keyAromatics: ['Crushed Anardana (Pomegranate Seeds)', 'Roasted Coriander Seeds', 'Crushed Carom (Ajwain)', 'Charred Tomato Slices'],
@@ -302,7 +307,7 @@ export const RECIPES_DATA: Recipe[] = [
     defaultServings: 8,
     spiceHeat: 'Medium Spicy',
     heatLevel: 2,
-    image: '/src/assets/images/pakistani_nihari_pot_1791634813254.jpg',
+    image: nihariImg,
     originStory: 'Brought to the subcontinent centuries ago, Haleem is a tribute to patience. Pounded with wooden ghota until grains and meat dissolve into a unified silky texture.',
     bawarchiSecret: 'Use a heavy wooden pestle (Ghota) to pound the meat fibers against the pot walls until long silken threads (Resha) form.',
     keyAromatics: ['Nutmeg & Mace', 'Black Cumin', 'Golden Fried Onions', 'Crisp Ginger', 'Chaat Masala'],
@@ -360,7 +365,7 @@ export const RECIPES_DATA: Recipe[] = [
     defaultServings: 6,
     spiceHeat: 'Mild & Aromatic',
     heatLevel: 1,
-    image: '/src/assets/images/pakistani_hero_biryani_1791634787881.jpg',
+    image: biryaniImg,
     originStory: 'The crown jewel of traditional Pakistani festive dastarkhwans, prepared in unglazed terracotta clay pots (matkas) that impart a delightful earthy aroma.',
     bawarchiSecret: 'Crush the soaked basmati rice coarsely between your palms (never blend into a powder). Cook in thick buffalo whole milk for natural clotted creaminess.',
     keyAromatics: ['Kashmiri Saffron (Zafran)', 'Green Cardamom Powder', 'Kewra Rose Water', 'Silver Leaf (Chandi ka Warq)'],
