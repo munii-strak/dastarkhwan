@@ -1,0 +1,6 @@
+{
+  "name": "Dastarkhwan - Authentic Pakistani Recipes & Culinary Heritage",
+  "description": "An exquisite culinary journey celebrating authentic Pakistani dishes, royal slow-cooked curries, charcoal grills, and heirloom recipes with step-by-step master guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
